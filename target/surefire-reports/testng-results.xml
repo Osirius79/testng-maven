@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="51658" started-at="2018-09-21T17:55:12Z" finished-at="2018-09-21T17:56:04Z">
+    <groups>
+    </groups>
+    <test name="AmazonTest1" duration-ms="51658" started-at="2018-09-21T17:55:12Z" finished-at="2018-09-21T17:56:04Z">
+      <class name="rbc.qa_automation_assignment.AmazonTest">
+        <test-method status="PASS" signature="beforeClassTest()[pri:0, instance:rbc.qa_automation_assignment.AmazonTest@6615435c]" name="beforeClassTest" is-config="true" duration-ms="27121" started-at="2018-09-21T17:55:12Z" finished-at="2018-09-21T17:55:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassTest -->
+        <test-method status="PASS" signature="test()[pri:0, instance:rbc.qa_automation_assignment.AmazonTest@6615435c]" name="test" duration-ms="18832" started-at="2018-09-21T17:55:39Z" finished-at="2018-09-21T17:55:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterClassTest()[pri:0, instance:rbc.qa_automation_assignment.AmazonTest@6615435c]" name="afterClassTest" is-config="true" duration-ms="5630" started-at="2018-09-21T17:55:58Z" finished-at="2018-09-21T17:56:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassTest -->
+      </class> <!-- rbc.qa_automation_assignment.AmazonTest -->
+    </test> <!-- AmazonTest1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

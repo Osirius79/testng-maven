@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="2" >
+    <test name="AmazonTest1" >
+        <classes>
+            <class name="rbc.qa_automation_assignment.AmazonTest" />
+        </classes>
+    </test>
+</suite>
