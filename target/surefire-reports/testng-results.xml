@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="51658" started-at="2018-09-21T17:55:12Z" finished-at="2018-09-21T17:56:04Z">
+  <suite name="Suite1" duration-ms="86446" started-at="2018-09-21T18:25:32Z" finished-at="2018-09-21T18:26:58Z">
     <groups>
     </groups>
-    <test name="AmazonTest1" duration-ms="51658" started-at="2018-09-21T17:55:12Z" finished-at="2018-09-21T17:56:04Z">
+    <test name="AmazonTest1" duration-ms="86446" started-at="2018-09-21T18:25:32Z" finished-at="2018-09-21T18:26:58Z">
       <class name="rbc.qa_automation_assignment.AmazonTest">
-        <test-method status="PASS" signature="beforeClassTest()[pri:0, instance:rbc.qa_automation_assignment.AmazonTest@6615435c]" name="beforeClassTest" is-config="true" duration-ms="27121" started-at="2018-09-21T17:55:12Z" finished-at="2018-09-21T17:55:39Z">
+        <test-method status="PASS" signature="beforeClassTest()[pri:0, instance:rbc.qa_automation_assignment.AmazonTest@47f6473]" name="beforeClassTest" is-config="true" duration-ms="47838" started-at="2018-09-21T18:25:32Z" finished-at="2018-09-21T18:26:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClassTest -->
-        <test-method status="PASS" signature="test()[pri:0, instance:rbc.qa_automation_assignment.AmazonTest@6615435c]" name="test" duration-ms="18832" started-at="2018-09-21T17:55:39Z" finished-at="2018-09-21T17:55:58Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:rbc.qa_automation_assignment.AmazonTest@47f6473]" name="test" duration-ms="36032" started-at="2018-09-21T18:26:19Z" finished-at="2018-09-21T18:26:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="afterClassTest()[pri:0, instance:rbc.qa_automation_assignment.AmazonTest@6615435c]" name="afterClassTest" is-config="true" duration-ms="5630" started-at="2018-09-21T17:55:58Z" finished-at="2018-09-21T17:56:04Z">
+        <test-method status="PASS" signature="afterClassTest()[pri:0, instance:rbc.qa_automation_assignment.AmazonTest@47f6473]" name="afterClassTest" is-config="true" duration-ms="2482" started-at="2018-09-21T18:26:55Z" finished-at="2018-09-21T18:26:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClassTest -->
