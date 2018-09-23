@@ -33,9 +33,9 @@ public class AmazonTest {
         pageClassRepo.clickKinderPaperwhiteLink();
         pageClassRepo.selectQuantity(quantityValue);
         pageClassRepo.clickAddToCartButton();
-        pageClassRepo.clickPopUpWindowCloseButton();
+        pageClassRepo.clickPopUpWindowCloseButton();// Added this step to close popup window
         pageClassRepo.clickProceedToCheckoutButton();
-        pageClassRepo.verifyEmailMobileLabelPresent();
+        pageClassRepo.verifyEmailMobileLabel();
     }
 
     @AfterClass

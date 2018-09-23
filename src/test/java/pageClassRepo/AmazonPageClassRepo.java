@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 
 /*
 For test sake all the WebElements and methods are located in this class - pageClassRepo,
@@ -88,19 +89,27 @@ public class AmazonPageClassRepo {
 
     //Signing page WebElements and methods
 
-    public boolean isElementPresent(WebElement element) {
-        if (element != null)
-            return true;
-        else
-            return false;
-    }
+    String emailMobileText = "E-mail address or mobile phone number";
+
+//    public boolean isElementPresent(WebElement element) {
+//        if (element != null)
+//            return true;
+//        else
+//            return false;
+//    }
 
     public WebElement emailMobileLabel(){
         element = driver.findElement(By.xpath("//label[contains(text(), 'E-mail address or mobile phone number')]"));
         return element;
     }
 
-    public boolean verifyEmailMobileLabelPresent() {
-        return isElementPresent(emailMobileLabel());
+//    public boolean verifyEmailMobileLabelPresent() {
+//        return isElementPresent(emailMobileLabel());
+//    }
+
+    public void verifyEmailMobileLabel(){
+        String text = emailMobileLabel().getText();
+        Assert.assertEquals(text, emailMobileText);
     }
+
  }
